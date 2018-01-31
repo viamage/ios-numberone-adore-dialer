@@ -1,0 +1,39 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4830B0D4E25288D70A58DEE661C0A44720FAB166",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "601faad9-769b-4866-90ed-f91f4ebfe0d4" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4830B0D4E25288D70A58DEE661C0A44720FAB166" : 0,
+    "D7DFF87E23B39ADC6D99A48CEEB3E6CA0F36A2E4" : 9223372036854775807,
+    "601faad9-769b-4866-90ed-f91f4ebfe0d4" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8147AA56-1A05-450C-8D85-4C7E57F8DA4A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4830B0D4E25288D70A58DEE661C0A44720FAB166" : "NumberOne\/",
+    "D7DFF87E23B39ADC6D99A48CEEB3E6CA0F36A2E4" : "",
+    "601faad9-769b-4866-90ed-f91f4ebfe0d4" : "NumberOne\/pjproject-2.0-device\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Siphon",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "siphon\/Siphon2\/Siphon.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/adoreinfotech.git.beanstalkapp.com\/numberone_iphonedialer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4830B0D4E25288D70A58DEE661C0A44720FAB166"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/adoreinfotech.svn.beanstalkapp.com\/pjproject-2-0-device",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "601faad9-769b-4866-90ed-f91f4ebfe0d4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/adoreinfotech.git.beanstalkapp.com\/adore_iphone_twindialer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D7DFF87E23B39ADC6D99A48CEEB3E6CA0F36A2E4"
+    }
+  ]
+}
