@@ -469,7 +469,10 @@ void powerCallback( void * refCon, io_service_t service, natural_t messageType,
     acountviewcontroller =[[[AccountViewController alloc]init]autorelease];
     
     acountviewcontroller.phoneCallDelegate=self;
-    
+  
+    registerViewCtrl = [[[RegisterViewController alloc]init]autorelease];
+    topUpViewCtrl = [[[TopUpViewController alloc]init]autorelease];
+  
     //////////////////********************** *********************************************************  ////////////////////////////////////////
     
     
@@ -493,7 +496,7 @@ void powerCallback( void * refCon, io_service_t service, natural_t messageType,
     tabBarController = [[UITabBarController alloc] init];
     tabBarController.viewControllers = [NSMutableArray arrayWithObjects:phoneViewController,
                                         recentsViewCtrl,moreViewCtrl,acountviewcontroller
-                                        /*voicemailNavCtrl*/, nil];
+                                        /*voicemailNavCtrl*/, registerViewCtrl, topUpViewCtrl , nil];
     tabBarController.selectedIndex = 3;
     
     

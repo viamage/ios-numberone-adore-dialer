@@ -6,54 +6,44 @@
 //
 //
 
-#import "TopupViewController.h"
+#import "TopUpViewController.h"
 
-@implementation TopupViewController
--(id)init
-{
-    [super init];
-    
-    return self;
-}
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-     [webVw release];
-}
--(void)viewWillAppear:(BOOL)animated
-{
-    
-    [super viewWillAppear:YES];
-    dispatch_async(dispatch_get_main_queue(), ^{
+@implementation TopUpViewController
 
-
-  NSString *abc= [[NSUserDefaults standardUserDefaults] stringForKey:@"username"];
-        NSLog(@"USERNAME %@ ",abc);
-          [webVw release];
-          webVw = [[UIWebView alloc] initWithFrame:CGRectMake(-20, 70, 380, 520)];
-          [webVw setDelegate:self];
-        
-          NSString *urlAddress = [NSString  stringWithFormat:@"https://numberonecall.com/voucher/%@?pin_only=1",abc];
-          NSURL *url = [NSURL URLWithString:urlAddress];
-          NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-          [webVw loadRequest:requestObj];
-        
-          [self.view addSubview:webVw];
-        
-        UIButton *backBtn = [[UIButton alloc]initWithFrame:CGRectMake(10,25, 40, 40)];
-        [backBtn setBackgroundImage:[UIImage imageNamed:@"back-(2)-1.png"] forState:UIControlStateNormal];
-        [backBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-        backBtn.layer.borderWidth = 0.0f;
-        backBtn.layer.cornerRadius= 2.0f;
-        [backBtn addTarget:self action:@selector(gobackPage) forControlEvents:UIControlEventTouchUpInside];
-        [self.view addSubview:backBtn];
-
-});
-
-}
--(void)gobackPage
-{
-    [self dismissViewControllerAnimated:NO completion:nil];
+- (void)viewDidLoad {
+  [super viewDidLoad];
+  self.webView.delegate = self;
+  NSLog(@"WebView load");
+  NSString *accountId = [[NSUserDefaults standardUserDefaults] stringForKey:@"username"];
+  NSString *fullURL = [@"https://numberonecall.com/voucher/" stringByAppendingString:accountId];
+  NSLog(@"Load %@", fullURL);
+  NSURL *url = [NSURL URLWithString:fullURL];
+  NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+  [_webView loadRequest:requestObj];
+  [_backButton addTarget:self action:@selector(buttonPressed:)
+   forControlEvents:UIControlEventTouchUpInside];
 }
 
+- (void)buttonPressed:(UIButton *)button {
+  NSLog(@"Button Pressed");
+  //[self.navigationController popViewControllerAnimated:YES];
+  [self dismissModalViewControllerAnimated:YES];
+}
+
+- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
+  NSURL *url = request.URL;
+  NSString *urlString = url.absoluteString;
+//  if ([urlString isEqualToString:@"https://portal.numberonecall.com/"]) {
+//    [self.tabBarController setSelectedIndex:3];
+//    return NO;
+//  } else {
+    NSLog(@"url %@", urlString);
+    return YES;
+//  }
+}
+
+- (void)dealloc {
+  [_backButton release];
+  [super dealloc];
+}
 @end

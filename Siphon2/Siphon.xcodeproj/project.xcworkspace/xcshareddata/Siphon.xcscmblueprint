@@ -1,39 +1,30 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4830B0D4E25288D70A58DEE661C0A44720FAB166",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ADC06FA4856F9E486FB86C5868825258EA3DA345",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
-    "601faad9-769b-4866-90ed-f91f4ebfe0d4" : {
 
-    }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "4830B0D4E25288D70A58DEE661C0A44720FAB166" : 0,
-    "D7DFF87E23B39ADC6D99A48CEEB3E6CA0F36A2E4" : 9223372036854775807,
-    "601faad9-769b-4866-90ed-f91f4ebfe0d4" : 9223372036854775807
+    "033257C8837D782495C4631F208F436AD595A109" : 9223372036854775807,
+    "ADC06FA4856F9E486FB86C5868825258EA3DA345" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8147AA56-1A05-450C-8D85-4C7E57F8DA4A",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "4830B0D4E25288D70A58DEE661C0A44720FAB166" : "NumberOne\/",
-    "D7DFF87E23B39ADC6D99A48CEEB3E6CA0F36A2E4" : "",
-    "601faad9-769b-4866-90ed-f91f4ebfe0d4" : "NumberOne\/pjproject-2.0-device\/"
+    "033257C8837D782495C4631F208F436AD595A109" : "pjproject-device\/",
+    "ADC06FA4856F9E486FB86C5868825258EA3DA345" : "ios-numberone-adore-dialer\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Siphon",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "siphon\/Siphon2\/Siphon.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Siphon2\/Siphon.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/adoreinfotech.git.beanstalkapp.com\/numberone_iphonedialer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pjsip\/pjproject.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4830B0D4E25288D70A58DEE661C0A44720FAB166"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "033257C8837D782495C4631F208F436AD595A109"
     },
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/adoreinfotech.svn.beanstalkapp.com\/pjproject-2-0-device",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "601faad9-769b-4866-90ed-f91f4ebfe0d4"
-    },
-    {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/adoreinfotech.git.beanstalkapp.com\/adore_iphone_twindialer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/viamage\/ios-numberone-adore-dialer.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D7DFF87E23B39ADC6D99A48CEEB3E6CA0F36A2E4"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ADC06FA4856F9E486FB86C5868825258EA3DA345"
     }
   ]
 }
