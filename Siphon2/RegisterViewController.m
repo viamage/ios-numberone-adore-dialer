@@ -26,7 +26,7 @@
   NSURL *url = request.URL;
   NSString *urlString = url.absoluteString;
   if ([urlString isEqualToString:@"https://portal.numberonecall.com/"]) {
-    [self.tabBarController setSelectedIndex:3];
+    [self dismissModalViewControllerAnimated:YES];
     return NO;
   } else {
     NSLog(@"%@", urlString);

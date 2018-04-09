@@ -198,7 +198,7 @@ UIAlertView *alertView9;
   //[[UIApplication sharedApplication]openURL:[NSURL URLWithString:topstr]];
   NSLog(@"Navigate");
   TopUpViewController *topup = [[TopUpViewController alloc]init];
-  [self presentViewController:topup animated:NO completion:nil];
+  [self presentViewController:topup animated:YES completion:nil];
  
   
 }

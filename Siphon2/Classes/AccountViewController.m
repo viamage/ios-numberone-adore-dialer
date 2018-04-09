@@ -648,12 +648,8 @@ UIImageView *imgview = [[UIImageView alloc] initWithFrame:CGRectMake(-46.0f, 80.
             }
             else
             {
-               // [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"https://portal.numberonecall.com/signin?mobile=1"]];
-              //RegisterViewController  *rvc=[[RegisterViewController alloc] init];
-              //[self.navigationController pushViewController:rvc animated:YES];
-              
-              [self.tabBarController setSelectedIndex:4];
-            
+              RegisterViewController *reg = [[RegisterViewController alloc]init];
+              [self presentViewController:reg animated:YES completion:nil];
             }
         }
         else
