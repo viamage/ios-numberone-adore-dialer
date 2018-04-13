@@ -190,12 +190,17 @@ UIAlertView *alertView9;
 -(IBAction)Topup:(id)sender
 {
     
-    NSString *abc2= [[NSUserDefaults standardUserDefaults] stringForKey:@"username"];
+//NSString *abc2= [[NSUserDefaults standardUserDefaults] stringForKey:@"username"];
 
-    NSString *topstr = [NSString stringWithFormat:@"https://numberonecall.com/voucher/%@?pin_only=1", abc2];
+    //NSString *topstr = [NSString stringWithFormat:@"https://numberonecall.com/voucher/%@?pin_only=1", abc2];
     
-    [[UIApplication sharedApplication]openURL:[NSURL URLWithString:topstr]];
-
+ 
+  //[[UIApplication sharedApplication]openURL:[NSURL URLWithString:topstr]];
+  NSLog(@"Navigate");
+  TopUpViewController *topup = [[TopUpViewController alloc]init];
+  [self presentViewController:topup animated:YES completion:nil];
+ 
+  
 }
 
 -(IBAction)CallBtn:(id)sender
@@ -294,8 +299,9 @@ UIAlertView *alertView9;
 
 -(IBAction)but3:(id)sender
 {
-    TopupViewController *voucher = [[TopupViewController alloc]init];
-    [self presentViewController:voucher animated:NO completion:nil];
+    //TopupViewController *voucher = [[TopupViewController alloc]init];
+    //[self presentViewController:voucher animated:NO completion:nil];
+  
 }
 
 -(IBAction)but4:(id)sender

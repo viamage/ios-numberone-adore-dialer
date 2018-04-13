@@ -10,6 +10,7 @@
 #import "SiphonApplication.h"
 #import "newUserViewController.h"
 #import "FrgtpswdViewController.h"
+#import "RegisterViewController.h"
 
 NSString *i=0;
 SiphonApplication *app;
@@ -647,7 +648,8 @@ UIImageView *imgview = [[UIImageView alloc] initWithFrame:CGRectMake(-46.0f, 80.
             }
             else
             {
-                [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"https://portal.numberonecall.com/signin?mobile=1"]];
+              RegisterViewController *reg = [[RegisterViewController alloc]init];
+              [self presentViewController:reg animated:YES completion:nil];
             }
         }
         else

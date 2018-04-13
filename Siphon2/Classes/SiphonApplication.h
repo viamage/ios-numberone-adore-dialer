@@ -33,6 +33,8 @@
 #import "FavoritesListController.h"
 #include "call.h"
 #import "AccountViewController.h"
+#import "RegisterViewController.h"
+#import "TopUpViewController.h"
 //#import "addcontactViewcontroller.h"
 
 
@@ -58,7 +60,7 @@ PhoneCallDelegate>
     FavoritesListController *favoritesListCtrl;
     AccountViewController *acountviewcontroller;
     ContactViewController *contactsViewCtrl;
-    
+  
     app_config_t _app_config; // pointer ???
     BOOL isConnected;
     BOOL isIpod;
