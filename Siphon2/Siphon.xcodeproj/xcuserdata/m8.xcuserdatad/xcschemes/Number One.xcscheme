@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF973BB22074C49E009A6DBE"
-               BuildableName = "Siphon device.app"
-               BlueprintName = "Siphon device"
+               BuildableName = "Number One.app"
+               BlueprintName = "Number One"
                ReferencedContainer = "container:Siphon.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF973BB22074C49E009A6DBE"
-            BuildableName = "Siphon device.app"
-            BlueprintName = "Siphon device"
+            BuildableName = "Number One.app"
+            BlueprintName = "Number One"
             ReferencedContainer = "container:Siphon.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF973BB22074C49E009A6DBE"
-            BuildableName = "Siphon device.app"
-            BlueprintName = "Siphon device"
+            BuildableName = "Number One.app"
+            BlueprintName = "Number One"
             ReferencedContainer = "container:Siphon.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF973BB22074C49E009A6DBE"
-            BuildableName = "Siphon device.app"
-            BlueprintName = "Siphon device"
+            BuildableName = "Number One.app"
+            BlueprintName = "Number One"
             ReferencedContainer = "container:Siphon.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

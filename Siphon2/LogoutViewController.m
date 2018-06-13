@@ -53,7 +53,7 @@ NSString *balanceString1=nil;
     if (self) {
         NSString *abc1= [[NSUserDefaults standardUserDefaults] stringForKey:@"Withoutcode"];
         NSString *abc2= [[NSUserDefaults standardUserDefaults] stringForKey:@"password"];
-        NSString *abc3= [[NSUserDefaults standardUserDefaults] stringForKey:@"Withplus"];
+        NSString *abc3= [NSString stringWithFormat:@"+%@", [[NSUserDefaults standardUserDefaults] stringForKey:@"Codeval"]];
         NSString *abc4= [[NSUserDefaults standardUserDefaults] stringForKey:@"username"];
         
 //        NSString* imageData = [[NSUserDefaults standardUserDefaults] objectForKey:@"image"];
@@ -64,8 +64,8 @@ NSString *balanceString1=nil;
         self.tabBarItem.image = [UIImage imageNamed:@"login12.png"];
         
         scrol =[[ UIScrollView alloc] initWithFrame:CGRectMake(0,0,350 ,576) ]; // , , ,530
-        scrol.minimumZoomScale=0.5;
-        scrol.maximumZoomScale=6.0;
+        scrol.minimumZoomScale = 0.5;
+        scrol.maximumZoomScale = 6.0;
         scrol.contentSize=CGSizeMake(200,650) ;
         UIImageView *Scrlview = [[UIImageView alloc] initWithFrame:CGRectMake(0,0,350 ,750)];
         Scrlview.image=[UIImage imageNamed:@"background.png"];
@@ -645,7 +645,8 @@ NSString *balanceString1=nil;
             }
             else
             {
-                [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"https://portal.numberonecall.com/signin?mobile=1"]];
+              RegisterViewController *reg = [[RegisterViewController alloc]init];
+              [self presentViewController:reg animated:YES completion:nil];
             }
         }
         else

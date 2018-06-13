@@ -629,6 +629,26 @@
 		9AD685811EE1824C002274ED /* balance-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AD6857F1EE1824C002274ED /* balance-back.png */; };
 		9AE1801B1EDEAC0400330073 /* CheckboxOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE1801A1EDEAC0400330073 /* CheckboxOff.png */; };
 		9AE1801D1EDEAF5600330073 /* check1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE1801C1EDEAF5600330073 /* check1.png */; };
+		AF3D0199208790A50016A73C /* libg7221codec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3D0185208790A30016A73C /* libg7221codec.a */; };
+		AF3D019A208790A50016A73C /* libpjsip-simple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3D0186208790A30016A73C /* libpjsip-simple.a */; };
+		AF3D019B208790A50016A73C /* libpjmedia-audiodev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3D0187208790A30016A73C /* libpjmedia-audiodev.a */; };
+		AF3D019C208790A50016A73C /* libgsmcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3D0188208790A30016A73C /* libgsmcodec.a */; };
+		AF3D019D208790A50016A73C /* libpjlib-util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3D0189208790A30016A73C /* libpjlib-util.a */; };
+		AF3D019E208790A60016A73C /* libpjmedia-codec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3D018A208790A30016A73C /* libpjmedia-codec.a */; };
+		AF3D019F208790A60016A73C /* libpjsua2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3D018B208790A40016A73C /* libpjsua2.a */; };
+		AF3D01A0208790A60016A73C /* libwebrtc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3D018C208790A40016A73C /* libwebrtc.a */; };
+		AF3D01A1208790A60016A73C /* libilbccodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3D018D208790A40016A73C /* libilbccodec.a */; };
+		AF3D01A2208790A60016A73C /* libyuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3D018E208790A40016A73C /* libyuv.a */; };
+		AF3D01A3208790A60016A73C /* libpjnath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3D018F208790A40016A73C /* libpjnath.a */; };
+		AF3D01A4208790A60016A73C /* libpjmedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3D0190208790A40016A73C /* libpjmedia.a */; };
+		AF3D01A5208790A60016A73C /* libpjsip-ua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3D0191208790A40016A73C /* libpjsip-ua.a */; };
+		AF3D01A6208790A60016A73C /* libsrtp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3D0192208790A50016A73C /* libsrtp.a */; };
+		AF3D01A7208790A60016A73C /* libpj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3D0193208790A50016A73C /* libpj.a */; };
+		AF3D01A8208790A60016A73C /* libpjsua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3D0194208790A50016A73C /* libpjsua.a */; };
+		AF3D01A9208790A60016A73C /* libspeex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3D0195208790A50016A73C /* libspeex.a */; };
+		AF3D01AA208790A60016A73C /* libpjmedia-videodev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3D0196208790A50016A73C /* libpjmedia-videodev.a */; };
+		AF3D01AB208790A60016A73C /* libpjsip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3D0197208790A50016A73C /* libpjsip.a */; };
+		AF3D01AC208790A60016A73C /* libresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3D0198208790A50016A73C /* libresample.a */; };
 		AF5ACD1D2073645C00379953 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF5ACD1C2073645C00379953 /* RegisterViewController.xib */; };
 		AF5ACD20207367C300379953 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5ACD1F207367C300379953 /* RegisterViewController.m */; };
 		AF973BB42074C49E009A6DBE /* sy.svg in Resources */ = {isa = PBXBuildFile; fileRef = 047FDABA1F73841600DBEAAB /* sy.svg */; };
@@ -1317,50 +1337,29 @@
 		AF973E762074C49E009A6DBE /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC38E560E9C10B0006C8D19 /* libsqlite3.0.dylib */; };
 		AF973E772074C49E009A6DBE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E21FB1A0F2BD59B00AD2C7C /* CFNetwork.framework */; };
 		AF973E782074C49E009A6DBE /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF98E13115E5B38001D1E21 /* IOKit.framework */; };
-		AF973E7E2074C53D009A6DBE /* libpjlib-util-armv7-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC0D720692397004B7B3D /* libpjlib-util-armv7-apple-darwin_ios.a */; };
-		AF973E7F2074C53D009A6DBE /* libpjnath-armv7-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC0CB2069236D004B7B3D /* libpjnath-armv7-apple-darwin_ios.a */; };
-		AF973E802074C53D009A6DBE /* libwebrtc-armv7-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC0AA20691D46004B7B3D /* libwebrtc-armv7-apple-darwin_ios.a */; };
-		AF973E812074C53D009A6DBE /* libyuv-armv7-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC0A920691D46004B7B3D /* libyuv-armv7-apple-darwin_ios.a */; };
-		AF973E822074C53D009A6DBE /* libresample-armv7-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC0AD20691D46004B7B3D /* libresample-armv7-apple-darwin_ios.a */; };
-		AF973E832074C53D009A6DBE /* libsrtp-armv7-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC0AB20691D46004B7B3D /* libsrtp-armv7-apple-darwin_ios.a */; };
-		AF973E842074C53E009A6DBE /* libg7221codec-armv7-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC0B020691D46004B7B3D /* libg7221codec-armv7-apple-darwin_ios.a */; };
-		AF973E852074C53E009A6DBE /* libspeex-armv7-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC0AC20691D46004B7B3D /* libspeex-armv7-apple-darwin_ios.a */; };
-		AF973E862074C53E009A6DBE /* libilbccodec-armv7-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC0AE20691D46004B7B3D /* libilbccodec-armv7-apple-darwin_ios.a */; };
-		AF973E872074C53E009A6DBE /* libgsmcodec-armv7-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC0AF20691D46004B7B3D /* libgsmcodec-armv7-apple-darwin_ios.a */; };
-		AF973E882074C53E009A6DBE /* libpjmedia-audiodev-armv7-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC0D02069237E004B7B3D /* libpjmedia-audiodev-armv7-apple-darwin_ios.a */; };
-		AF973E892074C53E009A6DBE /* libpjsdp-armv7-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC0CD2069237E004B7B3D /* libpjsdp-armv7-apple-darwin_ios.a */; };
-		AF973E8A2074C53E009A6DBE /* libpjmedia-videodev-armv7-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC0CE2069237E004B7B3D /* libpjmedia-videodev-armv7-apple-darwin_ios.a */; };
-		AF973E8B2074C53E009A6DBE /* libpjmedia-codec-armv7-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC0CF2069237E004B7B3D /* libpjmedia-codec-armv7-apple-darwin_ios.a */; };
-		AF973E8C2074C53E009A6DBE /* libpjmedia-armv7-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC0D12069237E004B7B3D /* libpjmedia-armv7-apple-darwin_ios.a */; };
-		AF973E8D2074C53E009A6DBE /* libpjsua2-armv7-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC0C120692350004B7B3D /* libpjsua2-armv7-apple-darwin_ios.a */; };
-		AF973E8E2074C53E009A6DBE /* libpjsua-armv7-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC0C220692350004B7B3D /* libpjsua-armv7-apple-darwin_ios.a */; };
-		AF973E8F2074C53E009A6DBE /* libpjsip-ua-armv7-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC0C320692350004B7B3D /* libpjsip-ua-armv7-apple-darwin_ios.a */; };
-		AF973E902074C53E009A6DBE /* libpjsip-simple-armv7-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC0C420692350004B7B3D /* libpjsip-simple-armv7-apple-darwin_ios.a */; };
-		AF973E912074C53E009A6DBE /* libpjsip-armv7-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC0C520692350004B7B3D /* libpjsip-armv7-apple-darwin_ios.a */; };
-		AF973E922074C53E009A6DBE /* libpj-armv7-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC0D9206923AF004B7B3D /* libpj-armv7-apple-darwin_ios.a */; };
 		AF973E942074E1B7009A6DBE /* TopUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF973E932074E1B7009A6DBE /* TopUpViewController.xib */; };
 		AF973E952074E1B7009A6DBE /* TopUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF973E932074E1B7009A6DBE /* TopUpViewController.xib */; };
-		AFDBC11A206927D7004B7B3D /* libpj-i386-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC105206927D7004B7B3D /* libpj-i386-apple-darwin_ios.a */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AFDBC11B206927D7004B7B3D /* libpjlib-util-i386-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC106206927D7004B7B3D /* libpjlib-util-i386-apple-darwin_ios.a */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AFDBC11C206927D7004B7B3D /* libpjmedia-audiodev-i386-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC107206927D7004B7B3D /* libpjmedia-audiodev-i386-apple-darwin_ios.a */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AFDBC11D206927D7004B7B3D /* libpjmedia-codec-i386-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC108206927D7004B7B3D /* libpjmedia-codec-i386-apple-darwin_ios.a */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AFDBC11E206927D7004B7B3D /* libpjmedia-i386-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC109206927D7004B7B3D /* libpjmedia-i386-apple-darwin_ios.a */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AFDBC11F206927D7004B7B3D /* libpjmedia-videodev-i386-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC10A206927D7004B7B3D /* libpjmedia-videodev-i386-apple-darwin_ios.a */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AFDBC120206927D7004B7B3D /* libpjsdp-i386-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC10B206927D7004B7B3D /* libpjsdp-i386-apple-darwin_ios.a */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AFDBC121206927D7004B7B3D /* libpjnath-i386-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC10C206927D7004B7B3D /* libpjnath-i386-apple-darwin_ios.a */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AFDBC122206927D7004B7B3D /* libpjsip-i386-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC10D206927D7004B7B3D /* libpjsip-i386-apple-darwin_ios.a */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AFDBC123206927D7004B7B3D /* libpjsip-simple-i386-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC10E206927D7004B7B3D /* libpjsip-simple-i386-apple-darwin_ios.a */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AFDBC124206927D7004B7B3D /* libpjsip-ua-i386-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC10F206927D7004B7B3D /* libpjsip-ua-i386-apple-darwin_ios.a */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AFDBC125206927D7004B7B3D /* libpjsua-i386-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC110206927D7004B7B3D /* libpjsua-i386-apple-darwin_ios.a */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AFDBC126206927D7004B7B3D /* libpjsua2-i386-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC111206927D7004B7B3D /* libpjsua2-i386-apple-darwin_ios.a */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AFDBC127206927D7004B7B3D /* libg7221codec-i386-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC112206927D7004B7B3D /* libg7221codec-i386-apple-darwin_ios.a */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AFDBC128206927D7004B7B3D /* libgsmcodec-i386-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC113206927D7004B7B3D /* libgsmcodec-i386-apple-darwin_ios.a */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AFDBC129206927D7004B7B3D /* libilbccodec-i386-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC114206927D7004B7B3D /* libilbccodec-i386-apple-darwin_ios.a */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AFDBC12A206927D7004B7B3D /* libresample-i386-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC115206927D7004B7B3D /* libresample-i386-apple-darwin_ios.a */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AFDBC12B206927D7004B7B3D /* libspeex-i386-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC116206927D7004B7B3D /* libspeex-i386-apple-darwin_ios.a */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AFDBC12C206927D7004B7B3D /* libsrtp-i386-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC117206927D7004B7B3D /* libsrtp-i386-apple-darwin_ios.a */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AFDBC12D206927D7004B7B3D /* libwebrtc-i386-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC118206927D7004B7B3D /* libwebrtc-i386-apple-darwin_ios.a */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AFDBC12E206927D7004B7B3D /* libyuv-i386-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC119206927D7004B7B3D /* libyuv-i386-apple-darwin_ios.a */; settings = {ATTRIBUTES = (Weak, ); }; };
+		AFB10DD020C583C50007EEB7 /* libwebrtc-x86_64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC14320692935004B7B3D /* libwebrtc-x86_64-apple-darwin_ios.a */; };
+		AFB10DD120C583C50007EEB7 /* libyuv-x86_64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC14420692935004B7B3D /* libyuv-x86_64-apple-darwin_ios.a */; };
+		AFB10DD220C583C50007EEB7 /* libresample-x86_64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC14020692935004B7B3D /* libresample-x86_64-apple-darwin_ios.a */; };
+		AFB10DD320C583C50007EEB7 /* libsrtp-x86_64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC14220692935004B7B3D /* libsrtp-x86_64-apple-darwin_ios.a */; };
+		AFB10DD420C583C50007EEB7 /* libg7221codec-x86_64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC13D20692935004B7B3D /* libg7221codec-x86_64-apple-darwin_ios.a */; };
+		AFB10DD520C583C50007EEB7 /* libspeex-x86_64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC14120692935004B7B3D /* libspeex-x86_64-apple-darwin_ios.a */; };
+		AFB10DD620C583C50007EEB7 /* libilbccodec-x86_64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC13F20692935004B7B3D /* libilbccodec-x86_64-apple-darwin_ios.a */; };
+		AFB10DD720C583C50007EEB7 /* libgsmcodec-x86_64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC13E20692935004B7B3D /* libgsmcodec-x86_64-apple-darwin_ios.a */; };
+		AFB10DD820C583C50007EEB7 /* libpjsua2-x86_64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC13C20692935004B7B3D /* libpjsua2-x86_64-apple-darwin_ios.a */; };
+		AFB10DD920C583C50007EEB7 /* libpjsua-x86_64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC13B20692935004B7B3D /* libpjsua-x86_64-apple-darwin_ios.a */; };
+		AFB10DDA20C583C50007EEB7 /* libpjsip-ua-x86_64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC13920692935004B7B3D /* libpjsip-ua-x86_64-apple-darwin_ios.a */; };
+		AFB10DDB20C583C50007EEB7 /* libpjsip-simple-x86_64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC13820692935004B7B3D /* libpjsip-simple-x86_64-apple-darwin_ios.a */; };
+		AFB10DDC20C583C50007EEB7 /* libpjsip-x86_64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC13A20692935004B7B3D /* libpjsip-x86_64-apple-darwin_ios.a */; };
+		AFB10DDD20C583C50007EEB7 /* libpjnath-x86_64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC13720692935004B7B3D /* libpjnath-x86_64-apple-darwin_ios.a */; };
+		AFB10DDE20C583C50007EEB7 /* libpjmedia-audiodev-x86_64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC13220692935004B7B3D /* libpjmedia-audiodev-x86_64-apple-darwin_ios.a */; };
+		AFB10DDF20C583C50007EEB7 /* libpjsdp-x86_64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC13620692935004B7B3D /* libpjsdp-x86_64-apple-darwin_ios.a */; };
+		AFB10DE020C583C50007EEB7 /* libpjmedia-videodev-x86_64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC13420692935004B7B3D /* libpjmedia-videodev-x86_64-apple-darwin_ios.a */; };
+		AFB10DE120C583C50007EEB7 /* libpjmedia-codec-x86_64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC13320692935004B7B3D /* libpjmedia-codec-x86_64-apple-darwin_ios.a */; };
+		AFB10DE220C583C50007EEB7 /* libpjmedia-x86_64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC13520692935004B7B3D /* libpjmedia-x86_64-apple-darwin_ios.a */; };
+		AFB10DE320C583C50007EEB7 /* libpjlib-util-x86_64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC13120692935004B7B3D /* libpjlib-util-x86_64-apple-darwin_ios.a */; };
+		AFB10DE420C583C50007EEB7 /* libpj-x86_64-apple-darwin_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDBC13020692935004B7B3D /* libpj-x86_64-apple-darwin_ios.a */; };
 		B2C44DD41948540400EBD4A5 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C44DD21948540400EBD4A5 /* background.png */; };
 		B2C44DD51948540400EBD4A5 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C44DD31948540400EBD4A5 /* save.png */; };
 		B2CDC8CA194AF4FB003DFD6E /* register.png in Resources */ = {isa = PBXBuildFile; fileRef = B2CDC8C9194AF4FB003DFD6E /* register.png */; };
@@ -2111,10 +2110,30 @@
 		9AD6857F1EE1824C002274ED /* balance-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balance-back.png"; sourceTree = "<group>"; };
 		9AE1801A1EDEAC0400330073 /* CheckboxOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheckboxOff.png; sourceTree = "<group>"; };
 		9AE1801C1EDEAF5600330073 /* check1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check1.png; sourceTree = "<group>"; };
+		AF3D0185208790A30016A73C /* libg7221codec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libg7221codec.a; path = "../../pjproject-device-libs/libg7221codec.a"; sourceTree = "<group>"; };
+		AF3D0186208790A30016A73C /* libpjsip-simple.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsip-simple.a"; path = "../../pjproject-device-libs/libpjsip-simple.a"; sourceTree = "<group>"; };
+		AF3D0187208790A30016A73C /* libpjmedia-audiodev.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjmedia-audiodev.a"; path = "../../pjproject-device-libs/libpjmedia-audiodev.a"; sourceTree = "<group>"; };
+		AF3D0188208790A30016A73C /* libgsmcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgsmcodec.a; path = "../../pjproject-device-libs/libgsmcodec.a"; sourceTree = "<group>"; };
+		AF3D0189208790A30016A73C /* libpjlib-util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjlib-util.a"; path = "../../pjproject-device-libs/libpjlib-util.a"; sourceTree = "<group>"; };
+		AF3D018A208790A30016A73C /* libpjmedia-codec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjmedia-codec.a"; path = "../../pjproject-device-libs/libpjmedia-codec.a"; sourceTree = "<group>"; };
+		AF3D018B208790A40016A73C /* libpjsua2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpjsua2.a; path = "../../pjproject-device-libs/libpjsua2.a"; sourceTree = "<group>"; };
+		AF3D018C208790A40016A73C /* libwebrtc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwebrtc.a; path = "../../pjproject-device-libs/libwebrtc.a"; sourceTree = "<group>"; };
+		AF3D018D208790A40016A73C /* libilbccodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libilbccodec.a; path = "../../pjproject-device-libs/libilbccodec.a"; sourceTree = "<group>"; };
+		AF3D018E208790A40016A73C /* libyuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libyuv.a; path = "../../pjproject-device-libs/libyuv.a"; sourceTree = "<group>"; };
+		AF3D018F208790A40016A73C /* libpjnath.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpjnath.a; path = "../../pjproject-device-libs/libpjnath.a"; sourceTree = "<group>"; };
+		AF3D0190208790A40016A73C /* libpjmedia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpjmedia.a; path = "../../pjproject-device-libs/libpjmedia.a"; sourceTree = "<group>"; };
+		AF3D0191208790A40016A73C /* libpjsip-ua.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsip-ua.a"; path = "../../pjproject-device-libs/libpjsip-ua.a"; sourceTree = "<group>"; };
+		AF3D0192208790A50016A73C /* libsrtp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsrtp.a; path = "../../pjproject-device-libs/libsrtp.a"; sourceTree = "<group>"; };
+		AF3D0193208790A50016A73C /* libpj.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpj.a; path = "../../pjproject-device-libs/libpj.a"; sourceTree = "<group>"; };
+		AF3D0194208790A50016A73C /* libpjsua.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpjsua.a; path = "../../pjproject-device-libs/libpjsua.a"; sourceTree = "<group>"; };
+		AF3D0195208790A50016A73C /* libspeex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libspeex.a; path = "../../pjproject-device-libs/libspeex.a"; sourceTree = "<group>"; };
+		AF3D0196208790A50016A73C /* libpjmedia-videodev.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjmedia-videodev.a"; path = "../../pjproject-device-libs/libpjmedia-videodev.a"; sourceTree = "<group>"; };
+		AF3D0197208790A50016A73C /* libpjsip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpjsip.a; path = "../../pjproject-device-libs/libpjsip.a"; sourceTree = "<group>"; };
+		AF3D0198208790A50016A73C /* libresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libresample.a; path = "../../pjproject-device-libs/libresample.a"; sourceTree = "<group>"; };
 		AF5ACD1C2073645C00379953 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		AF5ACD1E2073654E00379953 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		AF5ACD1F207367C300379953 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
-		AF973E7C2074C49E009A6DBE /* Siphon device.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Siphon device.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF973E7C2074C49E009A6DBE /* Number One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Number One.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF973E7D2074C4A6009A6DBE /* Siphon simulator copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Siphon simulator copy-Info.plist"; path = "/Users/m8/pajeet/ios-numberone-adore-dialer/Siphon2/Siphon simulator copy-Info.plist"; sourceTree = "<absolute>"; };
 		AF973E932074E1B7009A6DBE /* TopUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopUpViewController.xib; sourceTree = "<group>"; };
 		AFDBC0A920691D46004B7B3D /* libyuv-armv7-apple-darwin_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libyuv-armv7-apple-darwin_ios.a"; path = "../../pjproject-device/third_party/lib/libyuv-armv7-apple-darwin_ios.a"; sourceTree = "<group>"; };
@@ -2273,27 +2292,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFDBC11A206927D7004B7B3D /* libpj-i386-apple-darwin_ios.a in Frameworks */,
-				AFDBC11B206927D7004B7B3D /* libpjlib-util-i386-apple-darwin_ios.a in Frameworks */,
-				AFDBC11C206927D7004B7B3D /* libpjmedia-audiodev-i386-apple-darwin_ios.a in Frameworks */,
-				AFDBC11D206927D7004B7B3D /* libpjmedia-codec-i386-apple-darwin_ios.a in Frameworks */,
-				AFDBC11E206927D7004B7B3D /* libpjmedia-i386-apple-darwin_ios.a in Frameworks */,
-				AFDBC11F206927D7004B7B3D /* libpjmedia-videodev-i386-apple-darwin_ios.a in Frameworks */,
-				AFDBC120206927D7004B7B3D /* libpjsdp-i386-apple-darwin_ios.a in Frameworks */,
-				AFDBC121206927D7004B7B3D /* libpjnath-i386-apple-darwin_ios.a in Frameworks */,
-				AFDBC122206927D7004B7B3D /* libpjsip-i386-apple-darwin_ios.a in Frameworks */,
-				AFDBC123206927D7004B7B3D /* libpjsip-simple-i386-apple-darwin_ios.a in Frameworks */,
-				AFDBC124206927D7004B7B3D /* libpjsip-ua-i386-apple-darwin_ios.a in Frameworks */,
-				AFDBC125206927D7004B7B3D /* libpjsua-i386-apple-darwin_ios.a in Frameworks */,
-				AFDBC126206927D7004B7B3D /* libpjsua2-i386-apple-darwin_ios.a in Frameworks */,
-				AFDBC127206927D7004B7B3D /* libg7221codec-i386-apple-darwin_ios.a in Frameworks */,
-				AFDBC128206927D7004B7B3D /* libgsmcodec-i386-apple-darwin_ios.a in Frameworks */,
-				AFDBC129206927D7004B7B3D /* libilbccodec-i386-apple-darwin_ios.a in Frameworks */,
-				AFDBC12A206927D7004B7B3D /* libresample-i386-apple-darwin_ios.a in Frameworks */,
-				AFDBC12B206927D7004B7B3D /* libspeex-i386-apple-darwin_ios.a in Frameworks */,
-				AFDBC12C206927D7004B7B3D /* libsrtp-i386-apple-darwin_ios.a in Frameworks */,
-				AFDBC12D206927D7004B7B3D /* libwebrtc-i386-apple-darwin_ios.a in Frameworks */,
-				AFDBC12E206927D7004B7B3D /* libyuv-i386-apple-darwin_ios.a in Frameworks */,
+				AFB10DD020C583C50007EEB7 /* libwebrtc-x86_64-apple-darwin_ios.a in Frameworks */,
+				AFB10DD120C583C50007EEB7 /* libyuv-x86_64-apple-darwin_ios.a in Frameworks */,
+				AFB10DD220C583C50007EEB7 /* libresample-x86_64-apple-darwin_ios.a in Frameworks */,
+				AFB10DD320C583C50007EEB7 /* libsrtp-x86_64-apple-darwin_ios.a in Frameworks */,
+				AFB10DD420C583C50007EEB7 /* libg7221codec-x86_64-apple-darwin_ios.a in Frameworks */,
+				AFB10DD520C583C50007EEB7 /* libspeex-x86_64-apple-darwin_ios.a in Frameworks */,
+				AFB10DD620C583C50007EEB7 /* libilbccodec-x86_64-apple-darwin_ios.a in Frameworks */,
+				AFB10DD720C583C50007EEB7 /* libgsmcodec-x86_64-apple-darwin_ios.a in Frameworks */,
+				AFB10DD820C583C50007EEB7 /* libpjsua2-x86_64-apple-darwin_ios.a in Frameworks */,
+				AFB10DD920C583C50007EEB7 /* libpjsua-x86_64-apple-darwin_ios.a in Frameworks */,
+				AFB10DDA20C583C50007EEB7 /* libpjsip-ua-x86_64-apple-darwin_ios.a in Frameworks */,
+				AFB10DDB20C583C50007EEB7 /* libpjsip-simple-x86_64-apple-darwin_ios.a in Frameworks */,
+				AFB10DDC20C583C50007EEB7 /* libpjsip-x86_64-apple-darwin_ios.a in Frameworks */,
+				AFB10DDD20C583C50007EEB7 /* libpjnath-x86_64-apple-darwin_ios.a in Frameworks */,
+				AFB10DDE20C583C50007EEB7 /* libpjmedia-audiodev-x86_64-apple-darwin_ios.a in Frameworks */,
+				AFB10DDF20C583C50007EEB7 /* libpjsdp-x86_64-apple-darwin_ios.a in Frameworks */,
+				AFB10DE020C583C50007EEB7 /* libpjmedia-videodev-x86_64-apple-darwin_ios.a in Frameworks */,
+				AFB10DE120C583C50007EEB7 /* libpjmedia-codec-x86_64-apple-darwin_ios.a in Frameworks */,
+				AFB10DE220C583C50007EEB7 /* libpjmedia-x86_64-apple-darwin_ios.a in Frameworks */,
+				AFB10DE320C583C50007EEB7 /* libpjlib-util-x86_64-apple-darwin_ios.a in Frameworks */,
+				AFB10DE420C583C50007EEB7 /* libpj-x86_64-apple-darwin_ios.a in Frameworks */,
 				E63007F71B0CBF580003ED12 /* AVFoundation.framework in Frameworks */,
 				2207C7B50DF9EFE700B5CFBD /* SystemConfiguration.framework in Frameworks */,
 				2207C7B60DF9EFE700B5CFBD /* UIKit.framework in Frameworks */,
@@ -2312,27 +2331,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF973E7E2074C53D009A6DBE /* libpjlib-util-armv7-apple-darwin_ios.a in Frameworks */,
-				AF973E7F2074C53D009A6DBE /* libpjnath-armv7-apple-darwin_ios.a in Frameworks */,
-				AF973E802074C53D009A6DBE /* libwebrtc-armv7-apple-darwin_ios.a in Frameworks */,
-				AF973E812074C53D009A6DBE /* libyuv-armv7-apple-darwin_ios.a in Frameworks */,
-				AF973E822074C53D009A6DBE /* libresample-armv7-apple-darwin_ios.a in Frameworks */,
-				AF973E832074C53D009A6DBE /* libsrtp-armv7-apple-darwin_ios.a in Frameworks */,
-				AF973E842074C53E009A6DBE /* libg7221codec-armv7-apple-darwin_ios.a in Frameworks */,
-				AF973E852074C53E009A6DBE /* libspeex-armv7-apple-darwin_ios.a in Frameworks */,
-				AF973E862074C53E009A6DBE /* libilbccodec-armv7-apple-darwin_ios.a in Frameworks */,
-				AF973E872074C53E009A6DBE /* libgsmcodec-armv7-apple-darwin_ios.a in Frameworks */,
-				AF973E882074C53E009A6DBE /* libpjmedia-audiodev-armv7-apple-darwin_ios.a in Frameworks */,
-				AF973E892074C53E009A6DBE /* libpjsdp-armv7-apple-darwin_ios.a in Frameworks */,
-				AF973E8A2074C53E009A6DBE /* libpjmedia-videodev-armv7-apple-darwin_ios.a in Frameworks */,
-				AF973E8B2074C53E009A6DBE /* libpjmedia-codec-armv7-apple-darwin_ios.a in Frameworks */,
-				AF973E8C2074C53E009A6DBE /* libpjmedia-armv7-apple-darwin_ios.a in Frameworks */,
-				AF973E8D2074C53E009A6DBE /* libpjsua2-armv7-apple-darwin_ios.a in Frameworks */,
-				AF973E8E2074C53E009A6DBE /* libpjsua-armv7-apple-darwin_ios.a in Frameworks */,
-				AF973E8F2074C53E009A6DBE /* libpjsip-ua-armv7-apple-darwin_ios.a in Frameworks */,
-				AF973E902074C53E009A6DBE /* libpjsip-simple-armv7-apple-darwin_ios.a in Frameworks */,
-				AF973E912074C53E009A6DBE /* libpjsip-armv7-apple-darwin_ios.a in Frameworks */,
-				AF973E922074C53E009A6DBE /* libpj-armv7-apple-darwin_ios.a in Frameworks */,
+				AF3D0199208790A50016A73C /* libg7221codec.a in Frameworks */,
+				AF3D019A208790A50016A73C /* libpjsip-simple.a in Frameworks */,
+				AF3D019B208790A50016A73C /* libpjmedia-audiodev.a in Frameworks */,
+				AF3D019C208790A50016A73C /* libgsmcodec.a in Frameworks */,
+				AF3D019D208790A50016A73C /* libpjlib-util.a in Frameworks */,
+				AF3D019E208790A60016A73C /* libpjmedia-codec.a in Frameworks */,
+				AF3D019F208790A60016A73C /* libpjsua2.a in Frameworks */,
+				AF3D01A0208790A60016A73C /* libwebrtc.a in Frameworks */,
+				AF3D01A1208790A60016A73C /* libilbccodec.a in Frameworks */,
+				AF3D01A2208790A60016A73C /* libyuv.a in Frameworks */,
+				AF3D01A3208790A60016A73C /* libpjnath.a in Frameworks */,
+				AF3D01A4208790A60016A73C /* libpjmedia.a in Frameworks */,
+				AF3D01A5208790A60016A73C /* libpjsip-ua.a in Frameworks */,
+				AF3D01A6208790A60016A73C /* libsrtp.a in Frameworks */,
+				AF3D01A7208790A60016A73C /* libpj.a in Frameworks */,
+				AF3D01A8208790A60016A73C /* libpjsua.a in Frameworks */,
+				AF3D01A9208790A60016A73C /* libspeex.a in Frameworks */,
+				AF3D01AA208790A60016A73C /* libpjmedia-videodev.a in Frameworks */,
+				AF3D01AB208790A60016A73C /* libpjsip.a in Frameworks */,
+				AF3D01AC208790A60016A73C /* libresample.a in Frameworks */,
 				AF973E6E2074C49E009A6DBE /* AVFoundation.framework in Frameworks */,
 				AF973E6F2074C49E009A6DBE /* SystemConfiguration.framework in Frameworks */,
 				AF973E702074C49E009A6DBE /* UIKit.framework in Frameworks */,
@@ -3146,7 +3164,7 @@
 			isa = PBXGroup;
 			children = (
 				2207C6FC0DF9EB7000B5CFBD /* Number One.app */,
-				AF973E7C2074C49E009A6DBE /* Siphon device.app */,
+				AF973E7C2074C49E009A6DBE /* Number One.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3154,6 +3172,26 @@
 		2207C7B20DF9EFAB00B5CFBD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AF3D0185208790A30016A73C /* libg7221codec.a */,
+				AF3D0188208790A30016A73C /* libgsmcodec.a */,
+				AF3D018D208790A40016A73C /* libilbccodec.a */,
+				AF3D0193208790A50016A73C /* libpj.a */,
+				AF3D0189208790A30016A73C /* libpjlib-util.a */,
+				AF3D0187208790A30016A73C /* libpjmedia-audiodev.a */,
+				AF3D018A208790A30016A73C /* libpjmedia-codec.a */,
+				AF3D0196208790A50016A73C /* libpjmedia-videodev.a */,
+				AF3D0190208790A40016A73C /* libpjmedia.a */,
+				AF3D018F208790A40016A73C /* libpjnath.a */,
+				AF3D0186208790A30016A73C /* libpjsip-simple.a */,
+				AF3D0191208790A40016A73C /* libpjsip-ua.a */,
+				AF3D0197208790A50016A73C /* libpjsip.a */,
+				AF3D0194208790A50016A73C /* libpjsua.a */,
+				AF3D018B208790A40016A73C /* libpjsua2.a */,
+				AF3D0198208790A50016A73C /* libresample.a */,
+				AF3D0195208790A50016A73C /* libspeex.a */,
+				AF3D0192208790A50016A73C /* libsrtp.a */,
+				AF3D018C208790A40016A73C /* libwebrtc.a */,
+				AF3D018E208790A40016A73C /* libyuv.a */,
 				AFDBC12F20692935004B7B3D /* pjproject-simulator */,
 				AFDBC13020692935004B7B3D /* libpj-x86_64-apple-darwin_ios.a */,
 				AFDBC13120692935004B7B3D /* libpjlib-util-x86_64-apple-darwin_ios.a */,
@@ -3302,9 +3340,9 @@
 			productReference = 2207C6FC0DF9EB7000B5CFBD /* Number One.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AF973BB22074C49E009A6DBE /* Siphon device */ = {
+		AF973BB22074C49E009A6DBE /* Number One */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF973E792074C49E009A6DBE /* Build configuration list for PBXNativeTarget "Siphon device" */;
+			buildConfigurationList = AF973E792074C49E009A6DBE /* Build configuration list for PBXNativeTarget "Number One" */;
 			buildPhases = (
 				AF973BB32074C49E009A6DBE /* Resources */,
 				AF973E2B2074C49E009A6DBE /* Sources */,
@@ -3314,9 +3352,9 @@
 			);
 			dependencies = (
 			);
-			name = "Siphon device";
+			name = "Number One";
 			productName = Siphon;
-			productReference = AF973E7C2074C49E009A6DBE /* Siphon device.app */;
+			productReference = AF973E7C2074C49E009A6DBE /* Number One.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -3367,7 +3405,7 @@
 			projectRoot = "";
 			targets = (
 				2207C6FB0DF9EB7000B5CFBD /* Siphon simulator */,
-				AF973BB22074C49E009A6DBE /* Siphon device */,
+				AF973BB22074C49E009A6DBE /* Number One */,
 			);
 		};
 /* End PBXProject section */
@@ -4812,13 +4850,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"../pjproject-svn/pjlib/include",
-					"../pjproject-svn/pjlib-util/include",
-					"../pjproject-svn/pjnath/include",
-					"../pjproject-svn/pjmedia/include",
-					"../pjproject-svn/pjsip/include",
-				);
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_OPENMP_FLAGS = "-fopenmp";
 				LINK_WITH_STANDARD_LIBRARIES = YES;
@@ -4842,7 +4874,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"CYDIA=0",
 					"RING_FILE=1",
@@ -4863,7 +4895,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = i386;
+				ARCHS = x86_64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Florin Coseru (9TT7Y3CKQS)";
@@ -4897,7 +4929,7 @@
 				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../pjproject-device/pjlib/lib\"",
@@ -4906,7 +4938,6 @@
 					"\"$(SRCROOT)/../../pjproject-device/pjnath/lib\"",
 					"\"$(SRCROOT)/../../pjproject-device/pjsip/lib\"",
 					"\"$(SRCROOT)/../../pjproject-device/third_party/lib\"",
-					"\"$(SRCROOT)/../../sim-libs\"",
 					"\"$(SRCROOT)/../../pjproject-simulator/third_party/lib\"",
 					"\"$(SRCROOT)/../../pjproject-simulator/pjlib/lib\"",
 					"\"$(SRCROOT)/../../pjproject-simulator/pjlib-util/lib\"",
@@ -4936,7 +4967,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = i386;
+				ARCHS = x86_64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Florin Coseru (9TT7Y3CKQS)";
@@ -4968,7 +4999,7 @@
 				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../pjproject-device/pjlib/lib\"",
@@ -4977,7 +5008,6 @@
 					"\"$(SRCROOT)/../../pjproject-device/pjnath/lib\"",
 					"\"$(SRCROOT)/../../pjproject-device/pjsip/lib\"",
 					"\"$(SRCROOT)/../../pjproject-device/third_party/lib\"",
-					"\"$(SRCROOT)/../../sim-libs\"",
 					"\"$(SRCROOT)/../../pjproject-simulator/third_party/lib\"",
 					"\"$(SRCROOT)/../../pjproject-simulator/pjlib/lib\"",
 					"\"$(SRCROOT)/../../pjproject-simulator/pjlib-util/lib\"",
@@ -5008,7 +5038,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = armv7;
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -5045,19 +5075,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../pjproject-device/pjlib/lib\"",
-					"\"$(SRCROOT)/../../pjproject-device/pjlib-util/lib\"",
-					"\"$(SRCROOT)/../../pjproject-device/pjmedia/lib\"",
-					"\"$(SRCROOT)/../../pjproject-device/pjnath/lib\"",
-					"\"$(SRCROOT)/../../pjproject-device/pjsip/lib\"",
-					"\"$(SRCROOT)/../../pjproject-device/third_party/lib\"",
-					"\"$(SRCROOT)/../../sim-libs\"",
-					"\"$(SRCROOT)/../../pjproject-simulator/third_party/lib\"",
-					"\"$(SRCROOT)/../../pjproject-simulator/pjlib/lib\"",
-					"\"$(SRCROOT)/../../pjproject-simulator/pjlib-util/lib\"",
-					"\"$(SRCROOT)/../../pjproject-simulator/pjmedia/lib\"",
-					"\"$(SRCROOT)/../../pjproject-simulator/pjnath/lib\"",
-					"\"$(SRCROOT)/../../pjproject-simulator/pjsip/lib\"",
+					"\"$(SRCROOT)/../../pjproject-device-libs\"",
 				);
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -5080,7 +5098,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = armv7;
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -5092,6 +5110,7 @@
 				ENABLE_BITCODE = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -5114,19 +5133,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../pjproject-device/pjlib/lib\"",
-					"\"$(SRCROOT)/../../pjproject-device/pjlib-util/lib\"",
-					"\"$(SRCROOT)/../../pjproject-device/pjmedia/lib\"",
-					"\"$(SRCROOT)/../../pjproject-device/pjnath/lib\"",
-					"\"$(SRCROOT)/../../pjproject-device/pjsip/lib\"",
-					"\"$(SRCROOT)/../../pjproject-device/third_party/lib\"",
-					"\"$(SRCROOT)/../../sim-libs\"",
-					"\"$(SRCROOT)/../../pjproject-simulator/third_party/lib\"",
-					"\"$(SRCROOT)/../../pjproject-simulator/pjlib/lib\"",
-					"\"$(SRCROOT)/../../pjproject-simulator/pjlib-util/lib\"",
-					"\"$(SRCROOT)/../../pjproject-simulator/pjmedia/lib\"",
-					"\"$(SRCROOT)/../../pjproject-simulator/pjnath/lib\"",
-					"\"$(SRCROOT)/../../pjproject-simulator/pjsip/lib\"",
+					"\"$(SRCROOT)/../../pjproject-device-libs\"",
 				);
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -5166,7 +5173,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF973E792074C49E009A6DBE /* Build configuration list for PBXNativeTarget "Siphon device" */ = {
+		AF973E792074C49E009A6DBE /* Build configuration list for PBXNativeTarget "Number One" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF973E7A2074C49E009A6DBE /* Debug */,
