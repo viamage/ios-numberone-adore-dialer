@@ -52,9 +52,9 @@ NSString *balanceString1=nil;
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         
-        NSString *abc1= [[NSUserDefaults standardUserDefaults] stringForKey:@"username"];
+        NSString *abc1= [[NSUserDefaults standardUserDefaults] stringForKey:@"Withoutcode"];
         NSString *abc2= [[NSUserDefaults standardUserDefaults] stringForKey:@"password"];
-        
+   
         app = (SiphonApplication*)[[UIApplication sharedApplication] delegate];
         self.title = NSLocalizedString(@"Account", @"RecentsView");
         self.tabBarItem.image = [UIImage imageNamed:@"login12.png"];
@@ -74,11 +74,9 @@ NSString *balanceString1=nil;
         
         NSString *countryName = [locale displayNameForKey: NSLocaleCountryCode
                                                     value: countryCode];
-        
-        self.CountryIso=@[@"AI",@"AM",@"AT",@"AW",@"AZ",@"AF",@"AL",@"DZ",@"AS",@"AD",@"AO",@"AR",@"AU",@"BS",@"BD",@"BE",@"BM",@"BT",@"BR",@"CA",@"CN",@"CO",@"KM",@"CR",@"CU",@"DK",@"DJ",@"EC",@"EG",@"ER",@"ET",@"FR",@"DE",@"GH",@"GR",@"GY",@"HK",@"HU",@"IN",@"ID",@"IR",@"IQ",@"IE",@"IL",@"IT",@"JM",@"JP",@"KE",@"KW",@"LB",@"LY",@"MY",@"MV",@"ML",@"MT",@"MX",@"MN",@"MA",@"NA",@"NP",@"NL",@"NZ",@"NG",@"OM",@"PK",@"PA",@"PY",@"PH",@"PL",@"PT",@"QA",@"RO",@"RU",@"WS",@"SA",@"RS",@"SN",@"SG",@"SO",@"ZA",@"ES",@"LK",@"SZ",@"CH",@"SY",@"TW",@"TH",@"TR",@"GB",@"UG",@"UA",@"UY",@"US",@"UZ",@"VE",@"VN",@"VU",@"YE",@"ZM",@"ZW"];
-        self.arrImage=@[@"ai.png",@"am.png",@"at.png",@"aw.png",@"az.png",@"af.png",@"al.png",@"dz.png",@"as.png",@"ad.png",@"ao.png",@"ar.png",@"au.png",@"bs.png",@"bd.png",@"be.png",@"bm.png",@"bt.png",@"br.png",@"ca.png",@"cn.png",@"co.png",@"km.png",@"cr.png",@"cu.png",@"dk.png",@"dj.png",@"ec.png",@"eg.png",@"er.png",@"et.png",@"fr.png",@"de.png",@"gh.png",@"gr.png",@"gy.png",@"hk.png",@"hu.png",@"in.png",@"id.png",@"ir.png",@"iq.png",@"ie.png",@"il.png",@"it.png",@"jm.png",@"jp.png",@"ke.png",@"kw.png",@"lb.png",@"ly.png",@"my.png",@"mv.png",@"ml.png",@"mt.png",@"mx.png",@"mn.png",@"ma.png",@"na.png",@"np.png",@"nl.png",@"nz.png",@"ng.png",@"om.png",@"pk.png",@"pa.png",@"py.png",@"ph.png",@"pl.png",@"pt.png",@"qa.png",@"ro.png",@"ru.png",@"ws.png",@"sa.png",@"rs.png",@"sn.png",@"sg.png",@"so.png",@"za.png",@"es.png",@"lk.png",@"sz.png",@"ch.png",@"sy.png",@"tw.png",@"th.png",@"tr.png",@"gb.png",@"ug.png",@"ua.png",@"uy.png",@"us.png",@"uz.png",@"ve.png",@"vn.png",@"vu.png",@"ye.png",@"zm.png",@"zw.png"];
-        
-        self.code=@[@"+1264",@"+374",@"+43",@"+297",@"+994",@"+93",@"+355",@"+213",@"+1684",@"+376",@"+244",@"+54",@"+61",@"+1242",@"+880",@"+32",@"+1441",@"+975",@"+55",@"+1",@"+86",@"+57",@"+269",@"+506",@"+53",@"+45",@"+253",@"+593",@"+20",@"+291",@"+251",@"+33",/*@"+220",*/@"+49",@"+233",@"+30",@"+592",@"+852",@"+36",@"+91",@"+62",@"+98",@"+964",@"+353",@"+972",@"+39",@"+1876",@"+81",@"+254",@"+965",@"+961",@"+218",@"+60",@"+960",@"+223",@"+356",@"+52",@"+976",@"+212",@"+264",@"+977",@"+31",@"+64",@"+234",@"+968",@"+92",@"+507",@"+595",@"+63",@"+48",@"+351",@"+974",@"+40",@"+7",@"+685",@"+966",@"+381",@"+221",@"+65",@"+252",@"+27",@"+34",@"+94",@"+268",@"+41",@"+963",@"+886",@"+66",@"+90",@"+44",@"+256",@"+380",@"+598",@"+1",@"+998",@"+58",@"+84",@"+678",@"+967",@"+260",@"+263"];
+    self.CountryIso=@[@"AI",@"AM",@"AT",@"AW",@"AZ",@"AF",@"AL",@"DZ",@"AS",@"AD",@"AO",@"AR",@"AU",@"BS",@"BD",@"BE",@"BM",@"BT",@"BR",@"CA",@"CN",@"CO",@"KM",@"CR",@"CU",@"DK",@"DJ",@"EC",@"EG",@"ER",@"ET",@"FR",@"DE",@"GH",@"GR",@"GY",@"HK",@"HU",@"IN",@"ID",@"IR",@"IQ",@"IE",@"IL",@"IT",@"JM",@"JP",@"KE",@"KW",@"LB",@"LY",@"MY",@"MV",@"ML",@"MT",@"MX",@"MN",@"MA",@"NA",@"NP",@"NL",@"NZ",@"NG",@"OM",@"PK",@"PA",@"PY",@"PH",@"PL",@"PT",@"QA",@"RO",@"RU",@"WS",@"SA",@"RS",@"SN",@"SG",@"SO",@"ZA",@"ES",@"LK",@"SZ",@"CH",@"SY",@"TW",@"TH",@"TR",@"GB",@"UG",@"UA",@"UY",@"US",@"UZ",@"VE",@"VN",@"VU",@"YE",@"ZM",@"ZW"];
+    self.arrImage=@[@"ai.png",@"am.png",@"at.png",@"aw.png",@"az.png",@"af.png",@"al.png",@"dz.png",@"as.png",@"ad.png",@"ao.png",@"ar.png",@"au.png",@"bs.png",@"bd.png",@"be.png",@"bm.png",@"bt.png",@"br.png",@"ca.png",@"cn.png",@"co.png",@"km.png",@"cr.png",@"cu.png",@"dk.png",@"dj.png",@"ec.png",@"eg.png",@"er.png",@"et.png",@"fr.png",@"de.png",@"gh.png",@"gr.png",@"gy.png",@"hk.png",@"hu.png",@"in.png",@"id.png",@"ir.png",@"iq.png",@"ie.png",@"il.png",@"it.png",@"jm.png",@"jp.png",@"ke.png",@"kw.png",@"lb.png",@"ly.png",@"my.png",@"mv.png",@"ml.png",@"mt.png",@"mx.png",@"mn.png",@"ma.png",@"na.png",@"np.png",@"nl.png",@"nz.png",@"ng.png",@"om.png",@"pk.png",@"pa.png",@"py.png",@"ph.png",@"pl.png",@"pt.png",@"qa.png",@"ro.png",@"ru.png",@"ws.png",@"sa.png",@"rs.png",@"sn.png",@"sg.png",@"so.png",@"za.png",@"es.png",@"lk.png",@"sz.png",@"ch.png",@"sy.png",@"tw.png",@"th.png",@"tr.png",@"gb.png",@"ug.png",@"ua.png",@"uy.png",@"us.png",@"uz.png",@"ve.png",@"vn.png",@"vu.png",@"ye.png",@"zm.png",@"zw.png"];
+    self.code=@[@"+1264",@"+374",@"+43",@"+297",@"+994",@"+93",@"+355",@"+213",@"+1684",@"+376",@"+244",@"+54",@"+61",@"+1242",@"+880",@"+32",@"+1441",@"+975",@"+55",@"+1",@"+86",@"+57",@"+269",@"+506",@"+53",@"+45",@"+253",@"+593",@"+20",@"+291",@"+251",@"+33",/*@"+220",*/@"+49",@"+233",@"+30",@"+592",@"+852",@"+36",@"+91",@"+62",@"+98",@"+964",@"+353",@"+972",@"+39",@"+1876",@"+81",@"+254",@"+965",@"+961",@"+218",@"+60",@"+960",@"+223",@"+356",@"+52",@"+976",@"+212",@"+264",@"+977",@"+31",@"+64",@"+234",@"+968",@"+92",@"+507",@"+595",@"+63",@"+48",@"+351",@"+974",@"+40",@"+7",@"+685",@"+966",@"+381",@"+221",@"+65",@"+252",@"+27",@"+34",@"+94",@"+268",@"+41",@"+963",@"+886",@"+66",@"+90",@"+44",@"+256",@"+380",@"+598",@"+1",@"+998",@"+58",@"+84",@"+678",@"+967",@"+260",@"+263"];
         
         self.country=@[@"Anguilla",@"Armenia",@"Austria",@"Aruba",@"Azerbaijan",@"Afghanistan", @"Albania", @"Algeria", @"American Samoa",       @ "Andorra", @"Angola",@"Argentina",@"Australia",@"Bahamas",@"Bangladesh",@"Belgium",@"Bermuda",@"Bhutan",@"Brazil",@"Canada",@"China",@"Colombia",@"Comoros",@"Costa Rica",@"Cuba",@"Denmark",@"Djibouti",@"Ecuador",@"Egypt",@"Eritrea",@"Ethiopia",@"France",/*@"Gambia",*/@"Germany",@"Ghana",@"Greece",@"Guyana",@"Hong Kong",@"Hungary",@"India",@"Indonesia",@"Iran",@"Iraq",@"Ireland",@"Israel",@"Italy",@"Jamaica",@"Japan",@"Kenya",@"Kuwait",@"Lebanon",@"Libya",@"Malaysia",@"Maldives",@"Mali",@"Malta",@"Mexico",@"Mongolia",@"Morocco",@"Namibia",@"Nepal",@"Netherlands",@"New Zealand",@"Nigeria",@"Oman",@"Pakistan",@"Panama",@"Paraguay",@"Philippines",@"Poland",@"Portugal",@"Qatar",@"Romania",@"Russia",@"Samoa",@"Saudi Arabia",@"Serbia",@"Senegal",@"Singapore",@"Somalia",@"South Africa",@"Spain",@"Sri Lanka",@"Swaziland",@"Switzerland",@"Syria",@"Taiwan",@"Thailand",@"Turkey",@"U.K.",@"Uganda",@"Ukraine",@"Uruguay",@"USA",@"Uzbekistan",@"Venezuela",@"VietNam",@"Vanuatu",@"Yemen",@"Zambia",@"Zimbabwe"];
         
@@ -96,16 +94,16 @@ NSString *balanceString1=nil;
         [Codefield resignFirstResponder];
         [Codefield setEnabled:NO ];
 
-         savebutton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-         savebutton.backgroundColor= [UIColor colorWithRed:0.91 green:0.02 blue:0.03 alpha:1.0];
-         savebutton.frame= CGRectMake(122, 452, 62, 29);//116,y=396(476, 446), 66
-         savebutton.layer.cornerRadius=2.0f;
-         savebutton.clipsToBounds= YES;
-         [savebutton setTitle:@"Next" forState:UIControlStateNormal];
-         [savebutton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-         [clearbutton.titleLabel setFont:[UIFont systemFontOfSize:20.0]];
-         [savebutton addTarget:self action:@selector(myButtonPressed) forControlEvents:UIControlEventTouchUpInside];
-         [scrol addSubview:savebutton];
+        savebutton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+        savebutton.backgroundColor= [UIColor colorWithRed:0.91 green:0.02 blue:0.03 alpha:1.0];
+        savebutton.frame= CGRectMake(122, 452, 62, 29);//116,y=396(476, 446), 66
+        savebutton.layer.cornerRadius=2.0f;
+        savebutton.clipsToBounds= YES;
+        [savebutton setTitle:@"Next" forState:UIControlStateNormal];
+        [savebutton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        [clearbutton.titleLabel setFont:[UIFont systemFontOfSize:20.0]];
+        [savebutton addTarget:self action:@selector(myButtonPressed) forControlEvents:UIControlEventTouchUpInside];
+        [scrol addSubview:savebutton];
 
         regbutton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
         regbutton.backgroundColor= [UIColor colorWithRed:0.91 green:0.02 blue:0.03 alpha:1.0];
@@ -130,30 +128,42 @@ NSString *balanceString1=nil;
         
         int i,pos=0;
        // NSLog(@"%lu",CountryIso.count);
-        
-        for( i=0;i<CountryIso.count;i++)
-        {
-            if([countryCode isEqualToString:self.CountryIso[i]])
-            {
+      
+      NSString *codeval = [[NSUserDefaults standardUserDefaults] stringForKey:@"Codeval"];
+      if(codeval == nil) {
+        for(i=0; i<CountryIso.count; i++) {
+            if([countryCode isEqualToString:self.CountryIso[i]]) {
                 pos = i;
                 NSLog(@"%@%d",self.CountryIso[i],pos);
-                
                 break;
             }
-            
         }
+      } else {
+        NSString* codevalWithPlus = [NSString stringWithFormat:@"+%@", codeval];
+        for(i=0; i<CountryIso.count; i++) {
+          if([codevalWithPlus isEqualToString:self.code[i]]) {
+            pos = i;
+            NSLog(@"%@%d",self.CountryIso[i],pos);
+            break;
+          }
+        }
+      }
         /*NSString *ima= [arrImage objectAtIndex:i];
          UIImage *Cntryim1 = [UIImage imageNamed:ima];
          [Cntry  setBackgroundImage:Cntryim1 forState:UIControlStateNormal];*/
         
-   NSString *cntryimg=[arrImage objectAtIndex:pos];
-       UIImage *Cntryimg = [UIImage imageNamed:cntryimg];
+        NSString *cntryimg=[arrImage objectAtIndex:pos];
+        UIImage *Cntryimg = [UIImage imageNamed:cntryimg];
         [Cntry  setBackgroundImage:Cntryimg forState:UIControlStateNormal];
         [Cntry addTarget:self action:@selector(CountryList) forControlEvents:UIControlEventTouchUpInside];
         [scrol addSubview:Cntry];
         [scrol addSubview:Label6];
-        
+      
+      
         Codefield.text=[code objectAtIndex:i];
+        NSString *fltr = [Codefield.text substringFromIndex:1];
+        [[NSUserDefaults standardUserDefaults] setObject:[NSString stringWithFormat:@"%@",fltr] forKey:@"Codeval"];
+    
         Label6.text=[country objectAtIndex:i];
         flgImg = [[UIImageView alloc]initWithFrame:CGRectMake(136,272,42,32)];
         [scrol addSubview :flgImg];
@@ -285,29 +295,7 @@ NSString *balanceString1=nil;
     UIImageView *ImgView = [[UIImageView alloc] initWithFrame:CGRectMake(0,0,350 ,750)];
     ImgView.image=[UIImage imageNamed:@"background.png"];
     [scrol addSubview:ImgView];
-    
-    
-    /*CountryIso=@[@"AF",@"AX",@"AL",@"DZ",@"AS",@"AD",@"AO",@"AI",@"AQ",@"AG",@"AR",@"AM",@"AW",@"AU",@"AT",@"AZ",@"BS",@"BH",@"BD",@"BB",@"BY",@"BE",@"BZ",@"BJ",@"BM",@"BT",@"BO",@"BQ",@"BA",@"BW",@"BV",@"BR",@"IO",@"BN",@"BG",@"BF",@"BI",@"KH",@"CM",@"CA",@"CV",@"KY",@"CF",@"TD",@"CL",@"CN",@"CX",@"CC",@"CO",@"KM",@"CG",@"CD",@"CK",@"CR",@"CI",@"HR",@"CU",@"CW",@"CY",@"CZ",@"DK",@"DJ",@"DM",@"DO",@"EC",@"EG",@"SV",@"GQ",@"ER",@"EE",@"ET",@"FK",@"FO",@"FJ",@"FI",@"FR",@"GF",@"PF",@"TF",@"GA",@"GM",@"GE",@"DE",@"GH",@"GI",@"GR",@"GL",@"GD",@"GP",@"GU",@"GT",@"GG",@"GN",@"GW",@"GY",@"HT",@"HM",@"VA",@"HN",@"HK",@"HU",@"IS",@"IN",@"ID",@"IR",@"IQ",@"IE",@"IM",@"IL",@"IT",@"JM",@"JP",@"JE",@"JO",@"KZ",@"KE",@"KI",@"KP",@"KR",@"KW",@"KG",@"LA",@"LV",@"LB",@"LS",@"LR",@"LY",@"LI",@"LT",@"LU",@"MO",@"MK",@"MG",@"MW",@"MY",@"MV",@"ML",@"MT",@"MH",@"MQ",@"MR",@"MU",@"YT",@"MX",@"FM",@"MD",@"MC",@"MN",@"ME",@"MS",@"MA",@"MZ",@"MM",@"NA",@"NR",@"NP",@"NL",@"NC",@"NZ",@"NI",@"NE",@"NG",@"NU",@"NF",@"MP",@"NO",@"OM",@"PK",@"PW",@"PS",@"PA",@"PG",@"PY",@"PE",@"PH",@"PN",@"PL",@"PT",@"PR",@"QA",@"RE",@"RO",@"RU",@"RW",@"BL",@"SH",@"KN",@"LC",@"MF",@"PM",@"VC",@"WS",@"SM",@"ST",@"SA",@"SN",@"RS",@"SC",@"SL",@"SG",@"SX",@"SK",@"SI",@"SB",@"SO",@"ZA",@"GS",@"SS",@"ES",@"LK",@"SD",@"SR",@"SJ",@"SZ",@"SE",@"CH",@"SY",@"TW",@"TJ",@"TZ",@"TH",@"TL",@"TG",@"TK",@"TO",@"TT",@"TN",@"TR",@"TM",@"TC",@"TV",@"UG",@"UA",@"AE",@"GB",@"US",@"UM",@"UY",@"UZ",@"VU",@"VE",@"VN",@"VG",@"VI",@"WF",@"EH",@"YE",@"ZM",@"ZW"];*/
-   /*self.CountryIso=@[@"AI",@"AM",@"AT",@"AW",@"AZ",@"AF",@"AL",@"DZ",@"AS",@"AD",@"AO",@"AR",@"AU",@"BS",@"BD",@"BE",@"BM",@"BT",@"BR",@"CA",@"CN",@"CO",@"KM",@"CR",@"CU",@"DK",@"DJ",@"EC",@"EG",@"ER",@"ET",@"FR",@"DE",@"GH",@"GR",@"GY",@"HK",@"HU",@"IN",@"ID",@"IR",@"IQ",@"IE",@"IL",@"IT",@"JM",@"JP",@"KE",@"KW",@"LB",@"LY",@"MY",@"MV",@"ML"@"MT",@"MX",@"MN",@"MA",@"NA",@"NP",@"NL",@"NZ",@"NG",@"OM",@"PK",@"PA",@"PY",@"PH",@"PL",@"PT",@"QA",@"RO",@"RU",@"WS",@"SA",@"RS",@"SN"@"SG",@"SO",@"ZA",@"ES",@"LK",@"SZ",@"CH",@"SY",@"TW",@"TH",@"TR",@"GB",@"UG",@"UA",@"UY",@"US",@"UZ",@"VE",@"VN",@"VU",@"YE",@"ZM",@"ZW"];
-    
-    NSLog(@"%lu",CountryIso.count);*/
-    
-//    self.code=@[@"+1264",@"+374",@"+43",@"+297",@"+994",@"+93",@"+355",@"+213",@"+1684",@"+376",@"+244",@"+54",@"+61",@"+1242",@"+880",@"+32",@"+1441",@"+975",@"+55",@"+1",@"+86",@"+57",@"+269",@"+506",@"+53",@"+45",@"+253",@"+593",@"+20",@"+251",@"+33",@"+49",@"+233",@"+30",@"+592",@"+852",@"+36",@"+91",@"+62",@"+98",@"+964",@"+353",@"+972",@"+39",@"+1876",@"+81",@"+254",@"+965",@"+961",@"+218",@"+60",@"+960",@"+356",@"+52",@"+976",@"+264",@"+977",@"+31",@"+64",@"+234",@"+968",@"+92",@"+507",@"+595",@"+63",@"+48",@"+351",@"+974",@"+40",@"+7",@"+685",@"+966",@"+381",@"+65",@"+252",@"+27",@"+34",@"+94",@"+268",@"+41",@"+963",@"+886",@"+66",@"+90",@"+44",@"+256",@"+380",@"+598",@"+1",@"+998",@"+58",@"+84",@"+678",@"+967",@"+260",@"+263"];
-    
-
-    
-    self.arrImage=@[@"ai.png",@"am.png",@"at.png",@"aw.png",@"az.png",@"af.png",@"al.png",@"dz.png",@"as.png",@"ad.png",@"ao.png",@"ar.png",@"au.png",@"bs.png",@"bd.png",@"be.png",@"bm.png",@"bt.png",@"br.png",@"ca.png",@"cn.png",@"co.png",@"km.png",@"cr.png",@"cu.png",@"dk.png",@"dj.png",@"ec.png",@"eg.png",@"er.png",@"et.png",@"fr.png",@"de.png",@"gh.png",@"gr.png",@"gy.png",@"hk.png",@"hu.png",@"in.png",@"id.png",@"ir.png",@"iq.png",@"ie.png",@"il.png",@"it.png",@"jm.png",@"jp.png",@"ke.png",@"kw.png",@"lb.png",@"ly.png",@"my.png",@"mv.png",@"ml.png",@"mt.png",@"mx.png",@"mn.png",@"ma.png",@"na.png",@"np.png",@"nl.png",@"nz.png",@"ng.png",@"om.png",@"pk.png",@"pa.png",@"py.png",@"ph.png",@"pl.png",@"pt.png",@"qa.png",@"ro.png",@"ru.png",@"ws.png",@"sa.png",@"rs.png",@"sn.png",@"sg.png",@"so.png",@"za.png",@"es.png",@"lk.png",@"sz.png",@"ch.png",@"sy.png",@"tw.png",@"th.png",@"tr.png",@"gb.png",@"ug.png",@"ua.png",@"uy.png",@"us.png",@"uz.png",@"ve.png",@"vn.png",@"vu.png",@"ye.png",@"zm.png",@"zw.png"];
-    
-
-    self.code=@[@"+1264",@"+374",@"+43",@"+297",@"+994",@"+93",@"+355",@"+213",@"+1684",@"+376",@"+244",@"+54",@"+61",@"+1242",@"+880",@"+32",@"+1441",@"+975",@"+55",@"+1",@"+86",@"+57",@"+269",@"+506",@"+53",@"+45",@"+253",@"+593",@"+20",@"+291",@"+251",@"+33",/*@"+220",*/@"+49",@"+233",@"+30",@"+592",@"+852",@"+36",@"+91",@"+62",@"+98",@"+964",@"+353",@"+972",@"+39",@"+1876",@"+81",@"+254",@"+965",@"+961",@"+218",@"+60",@"+960",@"+223",@"+356",@"+52",@"+976",@"+212",@"+264",@"+977",@"+31",@"+64",@"+234",@"+968",@"+92",@"+507",@"+595",@"+63",@"+48",@"+351",@"+974",@"+40",@"+7",@"+685",@"+966",@"+381",@"+221",@"+65",@"+252",@"+27",@"+34",@"+94",@"+268",@"+41",@"+963",@"+886",@"+66",@"+90",@"+44",@"+256",@"+380",@"+598",@"+1",@"+998",@"+58",@"+84",@"+678",@"+967",@"+260",@"+263"];
   
-    //    self.country=@[@"Anguilla",@"Armenia",@"Austria",@"Aruba",@"Azerbaijan",@"Afghanistan", @"Albania", @"Algeria", @"American Samoa", @"Andorra", @"Angola",@"Argentina",@"Australia ",@"Bahamas",@"Bangladesh",@"Belgium",@"Bermuda",@"Bhutan",@"Brazil",@"Canada", @"China",@"Colombia",@"Comoros",@"Costa Rica",@"Cuba",@"Denmark",@"Djibouti",@"Ecuador",@"Egypt",@"Ethiopia",@"France",@"Germany",@"Ghana",@"Greece",@"Guyana",@"Hong Kong",@"Hungary",@"India",@"Indonesia",@"Iran",@"Iraq",@"Ireland",@"Israel",@"Italy",@"Jamaica",@"Japan",@"Kenya",@"Kuwait",@"Lebanon",@"Libya",@"Malaysia",@"Maldives",@"Malta",@"Mexico",@"Mongolia",@"Namibia",@"Nepal",@"Netherlands",@"New Zealand",@"Nigeria",@"Oman",@"Pakistan",@"Panama",@"Paraguay",@"Philippines",@"Poland",@"Portugal",@"Qatar",@"Romania",@"Russia",@"Samoa",@"Saudi Arabia",@"Serbia",@"Singapore",@"Somalia",@"South Africa",@"Spain",@"Sri Lanka",@"Swaziland",@"Switzerland",@"Syria",@"Taiwan",@"Thailand",@"Turkey",@"U.K.",@"Uganda",@"Ukraine",@"Uruguay",@"USA",@"Uzbekistan",@"Venezuela",@"VietNam",@"Vanuatu",@"Yemen",@"Zambia",@"Zimbabwe"];
-    
-     self.country=@[@"Anguilla",@"Armenia",@"Austria",@"Aruba",@"Azerbaijan",@"Afghanistan", @"Albania", @"Algeria", @"American Samoa",       @ "Andorra", @"Angola",@"Argentina",@"Australia",@"Bahamas",@"Bangladesh",@"Belgium",@"Bermuda",@"Bhutan",@"Brazil",@"Canada",@"China",@"Colombia",@"Comoros",@"Costa Rica",@"Cuba",@"Denmark",@"Djibouti",@"Ecuador",@"Egypt",@"Eritrea",@"Ethiopia",@"France",/*@"Gambia",*/@"Germany",@"Ghana",@"Greece",@"Guyana",@"Hong Kong",@"Hungary",@"India",@"Indonesia",@"Iran",@"Iraq",@"Ireland",@"Israel",@"Italy",@"Jamaica",@"Japan",@"Kenya",@"Kuwait",@"Lebanon",@"Libya",@"Malaysia",@"Maldives",@"Mali",@"Malta",@"Mexico",@"Mongolia",@"Morocco",@"Namibia",@"Nepal",@"Netherlands",@"New Zealand",@"Nigeria",@"Oman",@"Pakistan",@"Panama",@"Paraguay",@"Philippines",@"Poland",@"Portugal",@"Qatar",@"Romania",@"Russia",@"Samoa",@"Saudi Arabia",@"Serbia",@"Senegal",@"Singapore",@"Somalia",@"South Africa",@"Spain",@"Sri Lanka",@"Swaziland",@"Switzerland",@"Syria",@"Taiwan",@"Thailand",@"Turkey",@"U.K.",@"Uganda",@"Ukraine",@"Uruguay",@"USA",@"Uzbekistan",@"Venezuela",@"VietNam",@"Vanuatu",@"Yemen",@"Zambia",@"Zimbabwe"];
-    
-    
-   
-
     NSLog(@"lsit of Flags==%lu",(unsigned long)self.arrImage.count);
     NSLog(@"lsit of country==%lu",(unsigned long)self.country.count);
     NSLog(@"lsit of code==%lu",(unsigned long)self.code.count);
@@ -424,8 +412,6 @@ UIImageView *imgview = [[UIImageView alloc] initWithFrame:CGRectMake(-46.0f, 80.
 
 
     NSString *fltr = [Codefield.text substringFromIndex:1];
-//   NSString *Imag = Cntry;
-    
     [userDef setObject:[NSString stringWithFormat:@"%@",fltr] forKey:@"Codeval"];
 
     [userDef synchronize];
@@ -545,10 +531,13 @@ UIImageView *imgview = [[UIImageView alloc] initWithFrame:CGRectMake(-46.0f, 80.
         else
         {
         
+       
             NSString *cv= [[NSUserDefaults standardUserDefaults] stringForKey:@"Codeval"];
            // NSString *uv= [[NSUserDefaults standardUserDefaults] stringForKey:@"Phoneno"];
 
-            NSString *str2 = [cv stringByAppendingString:tf1.text];
+          
+          NSString *number = tf1.text;
+            NSString *str2 = [cv stringByAppendingString:number];
            // Appendstr = [str2 substringFromIndex:1];
             
         NSUserDefaults *userDef = [NSUserDefaults standardUserDefaults];
@@ -556,12 +545,9 @@ UIImageView *imgview = [[UIImageView alloc] initWithFrame:CGRectMake(-46.0f, 80.
         NSString *dtmf = @"2";
         NSString *did = [[NSUserDefaults standardUserDefaults]stringForKey:@"didNumber"];
 //        NSString *did = @"0015672549595";
+          
         [userDef setObject:[NSString stringWithFormat:@"%@",str2] forKey:@"username"];
-            
-            
-            
         [userDef setObject:[NSString stringWithFormat:@"%@",tf1.text] forKey:@"Withoutcode"];
-        [userDef setObject:[NSString stringWithFormat:@"%@",Codefield.text] forKey:@"Withplus"];
         [userDef setObject:[NSString stringWithFormat:@"%@",tf2.text] forKey:@"password"];
         [userDef setObject:[NSString stringWithFormat:@"%@",did] forKey:@"didNumber"];
         [userDef setObject:[NSString stringWithFormat:@"%@",@""] forKey:@"pinbase"];
@@ -584,18 +570,19 @@ UIImageView *imgview = [[UIImageView alloc] initWithFrame:CGRectMake(-46.0f, 80.
     NSDictionary *dictionary = [notification userInfo];
     if ([[dictionary objectForKey:@"Status"] intValue] == 200 )
     {
-        PhoneViewController  *yvc=[[PhoneViewController  alloc] init];
-        [self.navigationController pushViewController:yvc animated:YES];
-        [self.tabBarController setSelectedIndex:0];
-        
-        NSMutableArray *tabbarViewControllers = [NSMutableArray arrayWithArray: [self.tabBarController viewControllers]];
+      PhoneViewController  *yvc=[[PhoneViewController  alloc] init];
+      [self.navigationController pushViewController:yvc animated:YES];
+      [self.tabBarController setSelectedIndex:0];
+      
+      NSMutableArray *tabbarViewControllers = [NSMutableArray arrayWithArray: [self.tabBarController viewControllers]];
+      if([tabbarViewControllers count] >= 3) {
         [tabbarViewControllers removeObjectAtIndex:3];
         [self.tabBarController setViewControllers: tabbarViewControllers ];
+      }
 
-        
-        [shwstatus setHidden:NO];
-        [shwstatus setTextColor:[UIColor greenColor]];
-         shwstatus.text = @"Registered";
+      [shwstatus setHidden:NO];
+      [shwstatus setTextColor:[UIColor greenColor]];
+       shwstatus.text = @"Registered";
     }
     else
     {
