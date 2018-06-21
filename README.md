@@ -1,9 +1,11 @@
 ### NumberOne SIP Dialer
 
 Fork of Siphon created by Adore Technologies. GPL2 licensed now as it was 
-*designated* to be.
+designated to be.
 
 ---
+
+Apps bases on PjSIP, therefore has GPL2 license:
 
 http://www.pjsip.org/
 
